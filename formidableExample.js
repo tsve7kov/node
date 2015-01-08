@@ -16,6 +16,7 @@ http.createServer(function (req, res) {
 				files: files
 			}));
 		});
+
 		return;
 	}
 	res.writeHead(200, {
